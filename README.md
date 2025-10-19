@@ -1,4 +1,4 @@
-## Instalação
+## Instalation
 
 Get started quickly with a responsive dashboard and light and dark theme supports
 
