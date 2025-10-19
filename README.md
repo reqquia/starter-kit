@@ -9,4 +9,8 @@ Get started quickly with a responsive dashboard and light and dark theme support
   pnpm run dev
 ```
 
+- tailwind css
+- nextJS
+- lucide Icons
+
 that's all
