@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Home, Info, Briefcase, Mail } from "lucide-react";
+import { Home, Info, Briefcase, Mail, Settings } from "lucide-react";
 import Header from "./components/layouts/Header/Header";
 import Footer from "./components/layouts/Footer/Footer";
 import Sidebar from "./components/layouts/Sidebar/Sidebar";
@@ -35,8 +35,11 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   const closeMobileSidebar = () => setIsMobileSidebarOpen(false);
 
   const menuItems = [
-    { icon: Home, label: "Início", link: "/" },
-    { icon: Info, label: "Sobre", link: "/sobre" }
+    { icon: Home, label: "Dashboard", link: "/" },
+    { icon: Briefcase, label: "Menu 1", link: "/menu1" },
+    { icon: Mail, label: "Menu 2", link: "/menu2" },
+    { icon: Settings, label: "Menu 3", link: "/menu3" },
+    { icon: Info, label: "Menu 4", link: "/menu4" }
   ];
 
   return (
